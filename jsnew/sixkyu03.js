@@ -8,11 +8,11 @@
 // "-7" --> -7
 
 const stringToNumber = function (str) {
-	// put your code here
-	// return parseInt(str)
+
+	return parseInt(str)
 
 	// return Number(str)
-	return +str
+	// return +str
 }
 
 console.log(stringToNumber("1234"));   // 1234
